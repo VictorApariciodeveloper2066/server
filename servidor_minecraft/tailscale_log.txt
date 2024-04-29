@@ -1,7 +1,66 @@
-2024/04/29 02:16:56 logtail started
-2024/04/29 02:16:56 Program starting: v1.62.0-tdf4d4ebd4-gd0454003c, Go 1.22.1: []string{"./tailscaled"}
-2024/04/29 02:16:56 LogID: 8e173eef4d5e6d39c6d23488ec8c177bddb806b484fcac3a249e0a7010a302c9
-2024/04/29 02:16:56 logpolicy: using system state directory "/var/lib/tailscale"
-2024/04/29 02:16:56 flushing log.
-2024/04/29 02:16:56 logger closing down
-2024/04/29 02:16:56 safesocket.Listen: /var/run/tailscale/tailscaled.sock: address already in use
+2024/04/29 02:38:29 logtail started
+2024/04/29 02:38:29 Program starting: v1.62.0-tdf4d4ebd4-gd0454003c, Go 1.22.1: []string{"./tailscaled"}
+2024/04/29 02:38:29 LogID: 694ac1334c3192f96d980520acda6aa6e01951944b30cf7f8876ead535a7d35a
+2024/04/29 02:38:29 logpolicy: using system state directory "/var/lib/tailscale"
+2024/04/29 02:38:29 wgengine.NewUserspaceEngine(tun "tailscale0") ...
+2024/04/29 02:38:29 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2024/04/29 02:38:29 dns: [rc=resolved resolved=not-in-use ret=direct]
+2024/04/29 02:38:29 dns: using "direct" mode
+2024/04/29 02:38:29 dns: using *dns.directManager
+2024/04/29 02:38:29 link state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[172.16.5.4/24 llu6]} v4=true v6=false}
+2024/04/29 02:38:29 onPortUpdate(port=48536, network=udp6)
+2024/04/29 02:38:29 router: using firewall mode pref 
+2024/04/29 02:38:29 router: default choosing iptables
+2024/04/29 02:38:29 router: ipv6 unavailable due to missing filter table: running [/usr/sbin/ip6tables -t filter -S --wait]: exit status 3: ip6tables v1.8.4 (legacy): can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+Perhaps ip6tables or your kernel needs to be upgraded.
+2024/04/29 02:38:29 router: v6filter = false, v6nat = false
+2024/04/29 02:38:29 onPortUpdate(port=41917, network=udp4)
+2024/04/29 02:38:29 magicsock: disco key = d:bb86ac2d2811ef93
+2024/04/29 02:38:29 Creating WireGuard device...
+2024/04/29 02:38:29 Bringing WireGuard device up...
+2024/04/29 02:38:29 Bringing router up...
+2024/04/29 02:38:29 Clearing router settings...
+2024/04/29 02:38:29 Starting network monitor...
+2024/04/29 02:38:29 Engine created.
+2024/04/29 02:38:29 external route: up
+2024/04/29 02:38:29 pm: using backend prefs for "profile-5640": Prefs{ra=false dns=true want=true routes=[] nf=on update=on Persist{lm=, o=, n=[qzv3t] u="vicitorgamer@gmail.com"}}
+2024/04/29 02:38:29 logpolicy: using system state directory "/var/lib/tailscale"
+2024/04/29 02:38:29 got LocalBackend in 18ms
+2024/04/29 02:38:29 Start
+2024/04/29 02:38:31 Backend: logs: be:694ac1334c3192f96d980520acda6aa6e01951944b30cf7f8876ead535a7d35a fe:
+2024/04/29 02:38:31 control: client.Login(false, 0)
+2024/04/29 02:38:31 control: doLogin(regen=false, hasUrl=false)
+2024/04/29 02:38:31 health("overall"): error: not in map poll
+2024/04/29 02:38:31 control: control server key from https://controlplane.tailscale.com: ts2021=[fSeS+], legacy=[nlFWp]
+2024/04/29 02:38:31 control: RegisterReq: onode= node=[qzv3t] fup=false nks=false
+2024/04/29 02:38:32 control: RegisterReq: got response; nodeKeyExpired=false, machineAuthorized=true; authURL=false
+2024/04/29 02:38:32 control: netmap: got new dial plan from control
+2024/04/29 02:38:32 active login: vicitorgamer@gmail.com
+2024/04/29 02:38:32 Switching ipn state NoState -> Starting (WantRunning=true, nm=true)
+2024/04/29 02:38:32 magicsock: SetPrivateKey called (init)
+2024/04/29 02:38:32 wgengine: Reconfig: configuring userspace WireGuard config (with 0/3 peers)
+2024/04/29 02:38:32 monitor: gateway and self IP changed: gw=172.16.5.1 self=172.16.5.4
+2024/04/29 02:38:32 wgengine: Reconfig: configuring router
+2024/04/29 02:38:32 wgengine: Reconfig: configuring DNS
+2024/04/29 02:38:32 dns: Set: {DefaultResolvers:[] Routes:{tail8ea978.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail8ea978.ts.net.] Hosts:4}
+2024/04/29 02:38:32 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:4 LocalDomains:[tail8ea978.ts.net.]+65arpa}
+2024/04/29 02:38:32 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail8ea978.ts.net. 3zqglpsz2fneticqyhba5p3uua.cx.internal.cloudapp.net.] }
+2024/04/29 02:38:32 rename of "/etc/resolv.conf" to "/etc/resolv.pre-tailscale-backup.conf" failed (rename /etc/resolv.conf /etc/resolv.pre-tailscale-backup.conf: device or resource busy), falling back to copy+delete
+2024/04/29 02:38:32 restarted resolved after 1ms
+2024/04/29 02:38:32 peerapi: serving on http://100.64.223.27:50414
+2024/04/29 02:38:32 peerapi: failed to do peerAPI listen, harmless (netstack available) but error was: listen tcp6 [fd7a:115c:a1e0::d501:df1b]:0: bind: cannot assign requested address
+2024/04/29 02:38:32 peerapi: serving on http://[fd7a:115c:a1e0::d501:df1b]:1
+2024/04/29 02:38:32 magicsock: home is now derp-1 (nyc)
+2024/04/29 02:38:32 magicsock: adding connection to derp-1 for home-keep-alive
+2024/04/29 02:38:32 magicsock: 1 active derp conns: derp-1=cr0s,wr0s
+2024/04/29 02:38:32 Switching ipn state Starting -> Running (WantRunning=true, nm=true)
+2024/04/29 02:38:32 derphttp.Client.Connect: connecting to derp-1 (nyc)
+2024/04/29 02:38:32 magicsock: endpoints changed: 172.210.169.171:1030 (stun), 172.16.5.4:41917 (local), 172.17.0.1:41917 (local)
+2024/04/29 02:38:32 control: NetInfo: NetInfo{varies=false hairpin=false ipv6=false ipv6os=true udp=true icmpv4=false derp=#1 portmap= link="" firewallmode="ipt-default"}
+2024/04/29 02:38:32 magicsock: derp-1 connected; connGen=1
+2024/04/29 02:38:32 health("overall"): ok
+2024/04/29 02:38:33 wgengine: idle peer [PJLm+] now active, reconfiguring WireGuard
+2024/04/29 02:38:33 wgengine: Reconfig: configuring userspace WireGuard config (with 1/3 peers)
+2024/04/29 02:38:33 Accept: TCP{100.64.208.76:62271 > 100.64.223.27:25565} 68 tcp non-syn
+2024/04/29 02:38:33 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62271} 40 ok out
+2024/04/29 02:41:58 c2n: GET /update received
