@@ -9,7 +9,7 @@
 # snapshot             Instala vanilla primero
 
 # Regiones ngrok
-# Código      Lugar1
+# Código      Lugar
 #----------- ---------------------------
 # ap	      Asia/Pacific (Singapore)
 # au		  Australia (Sydney)
