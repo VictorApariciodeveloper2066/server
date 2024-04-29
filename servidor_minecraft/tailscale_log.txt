@@ -78,3 +78,20 @@ Perhaps ip6tables or your kernel needs to be upgraded.
 2024/04/29 02:46:40 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62405} 210 ok out
 2024/04/29 02:46:47 magicsock: endpoints changed: 172.210.169.171:1024 (stun), 172.16.5.4:41917 (local), 172.17.0.1:41917 (local)
 2024/04/29 02:46:50 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62405} 110 ok out
+2024/04/29 02:48:44 magicsock: closing connection to derp-16 (idle), age 2m45s
+2024/04/29 02:48:44 magicsock: 1 active derp conns: derp-1=cr10m0s,wr9m0s
+2024/04/29 02:50:36 magicsock: adding connection to derp-16 for [PJLm+]
+2024/04/29 02:50:36 magicsock: 2 active derp conns: derp-1=cr12m0s,wr11m0s derp-16=cr0s,wr0s
+2024/04/29 02:50:36 derphttp.Client.Send: connecting to derp-16 (mia)
+2024/04/29 02:50:36 magicsock: derp-16 connected; connGen=1
+2024/04/29 02:50:36 Accept: TCP{100.64.208.76:62459 > 100.64.223.27:25565} 52 tcp ok
+2024/04/29 02:50:36 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62459} 52 ok out
+2024/04/29 02:50:36 Accept: TCP{100.64.208.76:62459 > 100.64.223.27:25565} 40 tcp non-syn
+2024/04/29 02:50:46 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62459} 115 ok out
+2024/04/29 02:50:56 Accept: TCP{100.64.208.76:62459 > 100.64.223.27:25565} 40 tcp non-syn
+2024/04/29 02:51:12 Accept: TCP{100.64.208.76:62469 > 100.64.223.27:25565} 52 tcp ok
+2024/04/29 02:51:16 Accept: TCP{100.64.208.76:62469 > 100.64.223.27:25565} 40 tcp non-syn
+2024/04/29 02:51:26 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62469} 124 ok out
+2024/04/29 02:51:37 Accept: TCP{100.64.208.76:62469 > 100.64.223.27:25565} 68 tcp non-syn
+2024/04/29 02:51:47 Accept: TCP{100.64.208.76:62469 > 100.64.223.27:25565} 68 tcp non-syn
+2024/04/29 02:51:57 Accept: TCP{100.64.208.76:62469 > 100.64.223.27:25565} 68 tcp non-syn
