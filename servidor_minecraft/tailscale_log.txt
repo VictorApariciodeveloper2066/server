@@ -1,97 +1,61 @@
-2024/04/29 02:38:29 logtail started
-2024/04/29 02:38:29 Program starting: v1.62.0-tdf4d4ebd4-gd0454003c, Go 1.22.1: []string{"./tailscaled"}
-2024/04/29 02:38:29 LogID: 694ac1334c3192f96d980520acda6aa6e01951944b30cf7f8876ead535a7d35a
-2024/04/29 02:38:29 logpolicy: using system state directory "/var/lib/tailscale"
-2024/04/29 02:38:29 wgengine.NewUserspaceEngine(tun "tailscale0") ...
-2024/04/29 02:38:29 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
-2024/04/29 02:38:29 dns: [rc=resolved resolved=not-in-use ret=direct]
-2024/04/29 02:38:29 dns: using "direct" mode
-2024/04/29 02:38:29 dns: using *dns.directManager
-2024/04/29 02:38:29 link state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[172.16.5.4/24 llu6]} v4=true v6=false}
-2024/04/29 02:38:29 onPortUpdate(port=48536, network=udp6)
-2024/04/29 02:38:29 router: using firewall mode pref 
-2024/04/29 02:38:29 router: default choosing iptables
-2024/04/29 02:38:29 router: ipv6 unavailable due to missing filter table: running [/usr/sbin/ip6tables -t filter -S --wait]: exit status 3: ip6tables v1.8.4 (legacy): can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
+2024/04/29 03:03:44 logtail started
+2024/04/29 03:03:44 Program starting: v1.62.0-tdf4d4ebd4-gd0454003c, Go 1.22.1: []string{"./tailscaled"}
+2024/04/29 03:03:44 LogID: be24e093c6f8782ac8a3587f7637ae513fda12eff72f0eec8008c48e7179cfe3
+2024/04/29 03:03:44 logpolicy: using system state directory "/var/lib/tailscale"
+2024/04/29 03:03:44 wgengine.NewUserspaceEngine(tun "tailscale0") ...
+2024/04/29 03:03:44 dns: resolvedIsActuallyResolver error: resolv.conf doesn't point to systemd-resolved; points to [127.0.0.53 168.63.129.16]
+2024/04/29 03:03:44 dns: [rc=resolved resolved=not-in-use ret=direct]
+2024/04/29 03:03:44 dns: using "direct" mode
+2024/04/29 03:03:44 dns: using *dns.directManager
+2024/04/29 03:03:44 link state: interfaces.State{defaultRoute=eth0 ifs={docker0:[172.17.0.1/16] eth0:[172.16.5.4/24 llu6]} v4=true v6=false}
+2024/04/29 03:03:44 onPortUpdate(port=46796, network=udp6)
+2024/04/29 03:03:44 router: using firewall mode pref 
+2024/04/29 03:03:44 router: default choosing iptables
+2024/04/29 03:03:44 router: ipv6 unavailable due to missing filter table: running [/usr/sbin/ip6tables -t filter -S --wait]: exit status 3: ip6tables v1.8.4 (legacy): can't initialize ip6tables table `filter': Table does not exist (do you need to insmod?)
 Perhaps ip6tables or your kernel needs to be upgraded.
-2024/04/29 02:38:29 router: v6filter = false, v6nat = false
-2024/04/29 02:38:29 onPortUpdate(port=41917, network=udp4)
-2024/04/29 02:38:29 magicsock: disco key = d:bb86ac2d2811ef93
-2024/04/29 02:38:29 Creating WireGuard device...
-2024/04/29 02:38:29 Bringing WireGuard device up...
-2024/04/29 02:38:29 Bringing router up...
-2024/04/29 02:38:29 Clearing router settings...
-2024/04/29 02:38:29 Starting network monitor...
-2024/04/29 02:38:29 Engine created.
-2024/04/29 02:38:29 external route: up
-2024/04/29 02:38:29 pm: using backend prefs for "profile-5640": Prefs{ra=false dns=true want=true routes=[] nf=on update=on Persist{lm=, o=, n=[qzv3t] u="vicitorgamer@gmail.com"}}
-2024/04/29 02:38:29 logpolicy: using system state directory "/var/lib/tailscale"
-2024/04/29 02:38:29 got LocalBackend in 18ms
-2024/04/29 02:38:29 Start
-2024/04/29 02:38:31 Backend: logs: be:694ac1334c3192f96d980520acda6aa6e01951944b30cf7f8876ead535a7d35a fe:
-2024/04/29 02:38:31 control: client.Login(false, 0)
-2024/04/29 02:38:31 control: doLogin(regen=false, hasUrl=false)
-2024/04/29 02:38:31 health("overall"): error: not in map poll
-2024/04/29 02:38:31 control: control server key from https://controlplane.tailscale.com: ts2021=[fSeS+], legacy=[nlFWp]
-2024/04/29 02:38:31 control: RegisterReq: onode= node=[qzv3t] fup=false nks=false
-2024/04/29 02:38:32 control: RegisterReq: got response; nodeKeyExpired=false, machineAuthorized=true; authURL=false
-2024/04/29 02:38:32 control: netmap: got new dial plan from control
-2024/04/29 02:38:32 active login: vicitorgamer@gmail.com
-2024/04/29 02:38:32 Switching ipn state NoState -> Starting (WantRunning=true, nm=true)
-2024/04/29 02:38:32 magicsock: SetPrivateKey called (init)
-2024/04/29 02:38:32 wgengine: Reconfig: configuring userspace WireGuard config (with 0/3 peers)
-2024/04/29 02:38:32 monitor: gateway and self IP changed: gw=172.16.5.1 self=172.16.5.4
-2024/04/29 02:38:32 wgengine: Reconfig: configuring router
-2024/04/29 02:38:32 wgengine: Reconfig: configuring DNS
-2024/04/29 02:38:32 dns: Set: {DefaultResolvers:[] Routes:{tail8ea978.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail8ea978.ts.net.] Hosts:4}
-2024/04/29 02:38:32 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:4 LocalDomains:[tail8ea978.ts.net.]+65arpa}
-2024/04/29 02:38:32 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail8ea978.ts.net. 3zqglpsz2fneticqyhba5p3uua.cx.internal.cloudapp.net.] }
-2024/04/29 02:38:32 rename of "/etc/resolv.conf" to "/etc/resolv.pre-tailscale-backup.conf" failed (rename /etc/resolv.conf /etc/resolv.pre-tailscale-backup.conf: device or resource busy), falling back to copy+delete
-2024/04/29 02:38:32 restarted resolved after 1ms
-2024/04/29 02:38:32 peerapi: serving on http://100.64.223.27:50414
-2024/04/29 02:38:32 peerapi: failed to do peerAPI listen, harmless (netstack available) but error was: listen tcp6 [fd7a:115c:a1e0::d501:df1b]:0: bind: cannot assign requested address
-2024/04/29 02:38:32 peerapi: serving on http://[fd7a:115c:a1e0::d501:df1b]:1
-2024/04/29 02:38:32 magicsock: home is now derp-1 (nyc)
-2024/04/29 02:38:32 magicsock: adding connection to derp-1 for home-keep-alive
-2024/04/29 02:38:32 magicsock: 1 active derp conns: derp-1=cr0s,wr0s
-2024/04/29 02:38:32 Switching ipn state Starting -> Running (WantRunning=true, nm=true)
-2024/04/29 02:38:32 derphttp.Client.Connect: connecting to derp-1 (nyc)
-2024/04/29 02:38:32 magicsock: endpoints changed: 172.210.169.171:1030 (stun), 172.16.5.4:41917 (local), 172.17.0.1:41917 (local)
-2024/04/29 02:38:32 control: NetInfo: NetInfo{varies=false hairpin=false ipv6=false ipv6os=true udp=true icmpv4=false derp=#1 portmap= link="" firewallmode="ipt-default"}
-2024/04/29 02:38:32 magicsock: derp-1 connected; connGen=1
-2024/04/29 02:38:32 health("overall"): ok
-2024/04/29 02:38:33 wgengine: idle peer [PJLm+] now active, reconfiguring WireGuard
-2024/04/29 02:38:33 wgengine: Reconfig: configuring userspace WireGuard config (with 1/3 peers)
-2024/04/29 02:38:33 Accept: TCP{100.64.208.76:62271 > 100.64.223.27:25565} 68 tcp non-syn
-2024/04/29 02:38:33 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62271} 40 ok out
-2024/04/29 02:41:58 c2n: GET /update received
-2024/04/29 02:45:59 magicsock: adding connection to derp-16 for [PJLm+]
-2024/04/29 02:45:59 magicsock: 2 active derp conns: derp-1=cr7m0s,wr7m0s derp-16=cr0s,wr0s
-2024/04/29 02:45:59 derphttp.Client.Send: connecting to derp-16 (mia)
-2024/04/29 02:45:59 magicsock: derp-16 connected; connGen=1
-2024/04/29 02:46:00 Accept: TCP{100.64.208.76:62405 > 100.64.223.27:25565} 52 tcp ok
-2024/04/29 02:46:00 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62405} 52 ok out
-2024/04/29 02:46:00 Accept: TCP{100.64.208.76:62405 > 100.64.223.27:25565} 40 tcp non-syn
-2024/04/29 02:46:00 magicsock: endpoints changed: 172.210.169.171:1024 (stun), 172.210.169.171:1030 (stun), 172.16.5.4:41917 (local), 172.17.0.1:41917 (local)
-2024/04/29 02:46:10 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62405} 152 ok out
-2024/04/29 02:46:20 Accept: TCP{100.64.208.76:62405 > 100.64.223.27:25565} 40 tcp non-syn
-2024/04/29 02:46:30 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62405} 70 ok out
-2024/04/29 02:46:40 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62405} 210 ok out
-2024/04/29 02:46:47 magicsock: endpoints changed: 172.210.169.171:1024 (stun), 172.16.5.4:41917 (local), 172.17.0.1:41917 (local)
-2024/04/29 02:46:50 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62405} 110 ok out
-2024/04/29 02:48:44 magicsock: closing connection to derp-16 (idle), age 2m45s
-2024/04/29 02:48:44 magicsock: 1 active derp conns: derp-1=cr10m0s,wr9m0s
-2024/04/29 02:50:36 magicsock: adding connection to derp-16 for [PJLm+]
-2024/04/29 02:50:36 magicsock: 2 active derp conns: derp-1=cr12m0s,wr11m0s derp-16=cr0s,wr0s
-2024/04/29 02:50:36 derphttp.Client.Send: connecting to derp-16 (mia)
-2024/04/29 02:50:36 magicsock: derp-16 connected; connGen=1
-2024/04/29 02:50:36 Accept: TCP{100.64.208.76:62459 > 100.64.223.27:25565} 52 tcp ok
-2024/04/29 02:50:36 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62459} 52 ok out
-2024/04/29 02:50:36 Accept: TCP{100.64.208.76:62459 > 100.64.223.27:25565} 40 tcp non-syn
-2024/04/29 02:50:46 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62459} 115 ok out
-2024/04/29 02:50:56 Accept: TCP{100.64.208.76:62459 > 100.64.223.27:25565} 40 tcp non-syn
-2024/04/29 02:51:12 Accept: TCP{100.64.208.76:62469 > 100.64.223.27:25565} 52 tcp ok
-2024/04/29 02:51:16 Accept: TCP{100.64.208.76:62469 > 100.64.223.27:25565} 40 tcp non-syn
-2024/04/29 02:51:26 Accept: TCP{100.64.223.27:25565 > 100.64.208.76:62469} 124 ok out
-2024/04/29 02:51:37 Accept: TCP{100.64.208.76:62469 > 100.64.223.27:25565} 68 tcp non-syn
-2024/04/29 02:51:47 Accept: TCP{100.64.208.76:62469 > 100.64.223.27:25565} 68 tcp non-syn
-2024/04/29 02:51:57 Accept: TCP{100.64.208.76:62469 > 100.64.223.27:25565} 68 tcp non-syn
+2024/04/29 03:03:44 router: v6filter = false, v6nat = false
+2024/04/29 03:03:44 onPortUpdate(port=48545, network=udp4)
+2024/04/29 03:03:44 magicsock: disco key = d:913f6694712ef9d9
+2024/04/29 03:03:44 Creating WireGuard device...
+2024/04/29 03:03:44 Bringing WireGuard device up...
+2024/04/29 03:03:44 Bringing router up...
+2024/04/29 03:03:44 external route: up
+2024/04/29 03:03:44 Clearing router settings...
+2024/04/29 03:03:44 Starting network monitor...
+2024/04/29 03:03:44 Engine created.
+2024/04/29 03:03:44 pm: using backend prefs for "profile-c5f5": Prefs{ra=false dns=true want=true routes=[] nf=on update=on Persist{lm=, o=, n=[313fd] u="vicitorgamer@gmail.com"}}
+2024/04/29 03:03:44 logpolicy: using system state directory "/var/lib/tailscale"
+2024/04/29 03:03:44 got LocalBackend in 15ms
+2024/04/29 03:03:44 Start
+2024/04/29 03:03:46 Backend: logs: be:be24e093c6f8782ac8a3587f7637ae513fda12eff72f0eec8008c48e7179cfe3 fe:
+2024/04/29 03:03:46 control: client.Login(false, 0)
+2024/04/29 03:03:46 control: doLogin(regen=false, hasUrl=false)
+2024/04/29 03:03:46 health("overall"): error: not in map poll
+2024/04/29 03:03:46 control: control server key from https://controlplane.tailscale.com: ts2021=[fSeS+], legacy=[nlFWp]
+2024/04/29 03:03:46 control: RegisterReq: onode= node=[313fd] fup=false nks=false
+2024/04/29 03:03:46 control: RegisterReq: got response; nodeKeyExpired=false, machineAuthorized=true; authURL=false
+2024/04/29 03:03:46 control: netmap: got new dial plan from control
+2024/04/29 03:03:46 active login: vicitorgamer@gmail.com
+2024/04/29 03:03:46 Switching ipn state NoState -> Starting (WantRunning=true, nm=true)
+2024/04/29 03:03:46 magicsock: SetPrivateKey called (init)
+2024/04/29 03:03:46 wgengine: Reconfig: configuring userspace WireGuard config (with 0/4 peers)
+2024/04/29 03:03:46 wgengine: Reconfig: configuring router
+2024/04/29 03:03:46 monitor: gateway and self IP changed: gw=172.16.5.1 self=172.16.5.4
+2024/04/29 03:03:46 wgengine: Reconfig: configuring DNS
+2024/04/29 03:03:46 dns: Set: {DefaultResolvers:[] Routes:{tail8ea978.ts.net.:[] ts.net.:[199.247.155.53 2620:111:8007::53]}+65arpa SearchDomains:[tail8ea978.ts.net.] Hosts:5}
+2024/04/29 03:03:46 dns: Resolvercfg: {Routes:{.:[127.0.0.53 168.63.129.16] ts.net.:[199.247.155.53 2620:111:8007::53]} Hosts:5 LocalDomains:[tail8ea978.ts.net.]+65arpa}
+2024/04/29 03:03:46 dns: OScfg: {Nameservers:[100.100.100.100] SearchDomains:[tail8ea978.ts.net. afla2mmhg45efp2gx5kjgknubc.cx.internal.cloudapp.net.] }
+2024/04/29 03:03:46 rename of "/etc/resolv.conf" to "/etc/resolv.pre-tailscale-backup.conf" failed (rename /etc/resolv.conf /etc/resolv.pre-tailscale-backup.conf: device or resource busy), falling back to copy+delete
+2024/04/29 03:03:46 restarted resolved after 1ms
+2024/04/29 03:03:46 peerapi: serving on http://100.92.208.29:42752
+2024/04/29 03:03:46 peerapi: failed to do peerAPI listen, harmless (netstack available) but error was: listen tcp6 [fd7a:115c:a1e0::f401:d01d]:0: bind: cannot assign requested address
+2024/04/29 03:03:46 peerapi: serving on http://[fd7a:115c:a1e0::f401:d01d]:1
+2024/04/29 03:03:47 magicsock: home is now derp-1 (nyc)
+2024/04/29 03:03:47 magicsock: adding connection to derp-1 for home-keep-alive
+2024/04/29 03:03:47 magicsock: 1 active derp conns: derp-1=cr0s,wr0s
+2024/04/29 03:03:47 derphttp.Client.Connect: connecting to derp-1 (nyc)
+2024/04/29 03:03:47 Switching ipn state Starting -> Running (WantRunning=true, nm=true)
+2024/04/29 03:03:47 magicsock: endpoints changed: 172.210.168.79:1028 (stun), 172.16.5.4:48545 (local), 172.17.0.1:48545 (local)
+2024/04/29 03:03:47 control: NetInfo: NetInfo{varies=false hairpin=false ipv6=false ipv6os=true udp=true icmpv4=false derp=#1 portmap= link="" firewallmode="ipt-default"}
+2024/04/29 03:03:47 magicsock: derp-1 connected; connGen=1
+2024/04/29 03:03:47 health("overall"): ok

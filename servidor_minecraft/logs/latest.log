@@ -1,52 +1,116 @@
-[02:49:15] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:49:18] [ServerMain/INFO]: Loaded 1174 recipes
-[02:49:18] [ServerMain/INFO]: Loaded 1271 advancements
-[02:49:18] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[02:49:18] [Server thread/INFO]: Loading properties
-[02:49:18] [Server thread/INFO]: This server is running Paper version git-Paper-496 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 7ac24a1 on ver/1.20.4)
-[02:49:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[02:49:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[02:49:19] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[03:03:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:03:13] [ServerMain/INFO]: Loaded 1174 recipes
+[03:03:13] [ServerMain/INFO]: Loaded 1271 advancements
+[03:03:14] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[03:03:14] [Server thread/INFO]: Loading properties
+[03:03:14] [Server thread/INFO]: This server is running Paper version git-Paper-496 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 7ac24a1 on ver/1.20.4)
+[03:03:15] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:03:15] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:03:15] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[02:49:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[02:49:19] [Server thread/INFO]: Default game type: SURVIVAL
-[02:49:19] [Server thread/INFO]: Generating keypair
-[02:49:20] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:49:20] [Server thread/INFO]: Using epoll channel type
-[02:49:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[02:49:20] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[02:49:20] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.3-SNAPSHOT
-[02:49:20] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
-[02:49:20] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
-[02:49:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[02:49:20] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:49:20] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:49:20] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:49:20] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:49:20] [Server thread/INFO]: Preparing level "world"
-[02:49:21] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:49:21] [Server thread/INFO]: Time elapsed: 250 ms
-[02:49:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[02:49:21] [Server thread/INFO]: Time elapsed: 118 ms
-[02:49:21] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[02:49:22] [Server thread/INFO]: Time elapsed: 225 ms
-[02:49:22] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.3-SNAPSHOT
-[02:49:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[02:49:22] [Server thread/INFO]: [Geyser-Spigot] 
-[02:49:22] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.3-SNAPSHOT (git-master-9cb9a14)
-[02:49:22] [Server thread/INFO]: [Geyser-Spigot] 
-[02:49:22] [Server thread/INFO]: [Geyser-Spigot] ******************************************
-[02:49:29] [epollEventLoopGroup-3-2/INFO]: [Geyser-Spigot] Started Geyser on 100.64.223.27:34811
-[02:49:29] [Server thread/INFO]: [Geyser-Spigot] Done (7.005s)! Run /geyser help for help!
-[02:49:29] [Server thread/INFO]: Running delayed init tasks
-[02:49:29] [Server thread/INFO]: Done (10.923s)! For help, type "help"
-[02:49:29] [Server thread/INFO]: Timings Reset
-[02:50:36] [User Authenticator #0/INFO]: UUID of player TRECETRECETRECE is 723c0b61-1d01-371c-be4b-0b6817ec3f00
-[02:50:37] [Server thread/INFO]: TRECETRECETRECE joined the game
-[02:50:37] [Server thread/INFO]: TRECETRECETRECE[/100.64.208.76:62459] logged in with entity id 208 at ([world]-512.2886615315068, 89.0, -144.8601331046985)
-[02:51:01] [Server thread/INFO]: TRECETRECETRECE lost connection: Disconnected
-[02:51:01] [Server thread/INFO]: TRECETRECETRECE left the game
-[02:51:12] [User Authenticator #0/INFO]: UUID of player TRECETRECETRECE is 723c0b61-1d01-371c-be4b-0b6817ec3f00
-[02:51:13] [Server thread/INFO]: TRECETRECETRECE joined the game
-[02:51:13] [Server thread/INFO]: TRECETRECETRECE[/100.64.208.76:62469] logged in with entity id 488 at ([world]-513.1238007573809, 88.0, -144.014916191363)
+[03:03:15] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[03:03:15] [Server thread/INFO]: Default game type: SURVIVAL
+[03:03:15] [Server thread/INFO]: Generating keypair
+[03:03:15] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:03:15] [Server thread/INFO]: Using epoll channel type
+[03:03:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:03:15] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[03:03:16] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.2.3-SNAPSHOT
+[03:03:16] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[03:03:16] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[03:03:16] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:03:16] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:03:16] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:03:16] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:03:16] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:03:16] [Server thread/INFO]: Preparing level "world"
+[03:03:17] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:03:17] [Server thread/INFO]: Time elapsed: 223 ms
+[03:03:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[03:03:17] [Server thread/INFO]: Time elapsed: 77 ms
+[03:03:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[03:03:17] [Server thread/INFO]: Time elapsed: 121 ms
+[03:03:17] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.2.3-SNAPSHOT
+[03:03:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:03:17] [Server thread/INFO]: [Geyser-Spigot] 
+[03:03:17] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.2.3-SNAPSHOT (git-master-9cb9a14)
+[03:03:17] [Server thread/INFO]: [Geyser-Spigot] 
+[03:03:17] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:03:25] [epollEventLoopGroup-3-1/ERROR]: [Geyser-Spigot] Failed to start Geyser on 100.64.223.27:25565
+[03:03:25] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Suggestion: try setting `address` under `bedrock` in the Geyser config back to 0.0.0.0
+[03:03:25] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Then, restart this server.
+[03:03:25] [Server thread/ERROR]: Could not pass event ServerLoadEvent to Geyser-Spigot v2.2.3-SNAPSHOT
+java.util.concurrent.CompletionException: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Cannot assign requested address
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347) ~[?:?]
+	at java.util.concurrent.CompletableFuture$BiRelay.tryFire(CompletableFuture.java:1498) ~[?:?]
+	at java.util.concurrent.CompletableFuture$CoCompletion.tryFire(CompletableFuture.java:1219) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2194) ~[?:?]
+	at org.geysermc.geyser.network.netty.Bootstraps.lambda$allOf$0(Bootstraps.java:128) ~[Geyser-Spigot(1).jar:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at org.cloudburstmc.netty.channel.proxy.ProxyChannel.lambda$correctPromise$0(ProxyChannel.java:57) ~[Geyser-Spigot(1).jar:?]
+	at io.netty.util.concurrent.DefaultPromise.notifyListener0(DefaultPromise.java:590) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListenersNow(DefaultPromise.java:557) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.DefaultPromise.notifyListeners(DefaultPromise.java:492) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.DefaultPromise.setValue0(DefaultPromise.java:636) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.DefaultPromise.setFailure0(DefaultPromise.java:629) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.DefaultPromise.tryFailure(DefaultPromise.java:118) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.safeSetFailure(AbstractChannel.java:999) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:564) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at org.cloudburstmc.netty.handler.codec.raknet.ProxyOutboundRouter.bind(ProxyOutboundRouter.java:48) ~[Geyser-Spigot(1).jar:?]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:604) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at org.cloudburstmc.netty.channel.proxy.ProxyChannel.bind(ProxyChannel.java:188) ~[Geyser-Spigot(1).jar:?]
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356) ~[netty-transport-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:413) ~[netty-transport-classes-epoll-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.97.Final.jar:4.1.97.Final]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Cannot assign requested address
+[03:03:25] [Server thread/INFO]: Running delayed init tasks
+[03:03:25] [Server thread/INFO]: Done (11.260s)! For help, type "help"
+[03:03:25] [Server thread/INFO]: Timings Reset
+[03:03:39] [Server thread/INFO]: Stopping server
+[03:03:39] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.3-SNAPSHOT
+[03:03:39] [Server thread/INFO]: [Geyser-Spigot] Geyser shutdown successfully.
+[03:03:39] [Server thread/INFO]: Saving players
+[03:03:39] [Server thread/INFO]: Saving worlds
+[03:03:39] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:03:39] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[03:03:39] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[03:03:39] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[03:03:40] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world' in 1.07s
+[03:03:40] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:03:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[03:03:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[03:03:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[03:03:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[03:03:41] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_nether' in 0.47s
+[03:03:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:03:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[03:03:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[03:03:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[03:03:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[03:03:41] [Server thread/INFO]: [ChunkHolderManager] Saved 529 block chunks, 529 entity chunks, 0 poi chunks in world 'world_the_end' in 0.14s
+[03:03:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:03:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:03:41] [Server thread/INFO]: Flushing Chunk IO
+[03:03:41] [Server thread/INFO]: Closing Thread Pool
+[03:03:41] [Server thread/INFO]: Closing Server
