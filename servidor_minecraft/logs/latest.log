@@ -1,164 +1,167 @@
-[03:56:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[03:56:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[03:56:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[03:56:11] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[03:56:11] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_402, running on Linux:amd64:6.2.0-1019-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[03:56:11] [main/INFO] [FML]: Searching /workspaces/server/servidor_minecraft/./mods for mods
-[03:56:11] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[03:56:11] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[03:56:11] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
-[03:56:11] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in iceandfire-1.9.1-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[03:56:11] [main/WARN] [FML]: The coremod iceandfire (com.github.alexthe666.iceandfire.asm.IceAndFirePlugin) is not signed!
-[03:56:11] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in OpenModsLib-1.12.2-0.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[03:56:11] [main/WARN] [FML]: The coremod openmods.core.OpenModsCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[03:56:11] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
-[03:56:11] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in wings-1.1.6-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[03:56:11] [main/WARN] [FML]: The coremod wings (me.paulf.wings.server.asm.plugin.WingsLoadingPlugin) is not signed!
-[03:56:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[03:56:11] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
-[03:56:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[03:56:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[03:56:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[03:56:11] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
-[03:56:11] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
-[03:56:11] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
-[03:56:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[03:56:13] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[03:56:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[03:56:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[03:56:13] [main/WARN] [OpenMods]: openmods.config.simple.ConfigProcessor.process(ConfigProcessor.java:117): Adding new values: '[hook_pre_world_rendering, llama_null_fix, activate_player_render_hook, horse_base_null_fix, horse_null_fix]'
-[03:56:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[03:56:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[03:56:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[03:56:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[03:56:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[03:56:13] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[03:56:13] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[03:56:13] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
-[03:56:13] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.EntityLivingBase. This may cause patch issues
-[03:56:13] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.Entity. This may cause patch issues
-[03:56:13] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.nbt.NBTTagList. This may cause patch issues
-[03:56:13] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.player.EntityPlayerMP. This may cause patch issues
-[03:56:13] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[03:56:13] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[03:56:13] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
-[03:56:16] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[03:56:16] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[03:56:16] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[03:56:16] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[03:56:16] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[03:56:16] [Server thread/INFO] [FML]: Searching /workspaces/server/servidor_minecraft/./mods for mods
-[03:56:17] [Server thread/WARN] [FML]: Mod damageindicatorsmod is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
-[03:56:17] [Server thread/INFO] [FML]: Disabling mod ctm it is client side only.
-[03:56:18] [Server thread/INFO] [FML]: Disabling mod ptrmodellib it is client side only.
-[03:56:18] [Server thread/WARN] [FML]: Mod wings is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.6
-[03:56:18] [Server thread/INFO] [FML]: Forge Mod Loader has identified 35 mods to load
-[03:56:18] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[03:56:18] [Server thread/WARN] [FML]: Missing English translation for bibliotheca: assets/bibliotheca/lang/en_us.lang
-[03:56:18] [Server thread/WARN] [FML]: Missing English translation for radixcore: assets/radixcore/lang/en_us.lang
-[03:56:18] [Server thread/WARN] [FML]: Missing English translation for ruins: assets/ruins/lang/en_us.lang
-[03:56:18] [Server thread/WARN] [FML]: Missing English translation for mowzies_wings: assets/mowzies_wings/lang/en_us.lang
-[03:56:18] [Server thread/WARN] [FML]: Missing English translation for bauble_wings: assets/bauble_wings/lang/en_us.lang
-[03:56:18] [Server thread/WARN] [FML]: Mod mobends_wings has been disabled through configuration
-[03:56:18] [Server thread/INFO] [FML]: FML has found a non-mod file CTM-MC1.12.2-1.0.2.31.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[03:56:18] [Server thread/INFO] [FML]: FML has found a non-mod file PTRLib-1.0.5.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[03:56:18] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, openmodscore, damageindicatorsmod, baubles, bibliotheca, bookshelf, chisel, cloudboots, props, eplus, enderzoo, cfm, hammertime, iceandfire, jei, journeymap, mca, mcd, mowziesmobs, openblocks, openmods, radixcore, ruins, swordcraftonline, travellersbackpack, mowzies_wings, bauble_wings, wings, zoocraftdiscoveries, jurassicraft, llibrary] at CLIENT
-[03:56:18] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, openmodscore, damageindicatorsmod, baubles, bibliotheca, bookshelf, chisel, cloudboots, props, eplus, enderzoo, cfm, hammertime, iceandfire, jei, journeymap, mca, mcd, mowziesmobs, openblocks, openmods, radixcore, ruins, swordcraftonline, travellersbackpack, mowzies_wings, bauble_wings, wings, zoocraftdiscoveries, jurassicraft, llibrary] at SERVER
-[03:56:19] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[03:56:20] [Server thread/INFO] [FML]: Found 1948 ObjectHolder annotations
-[03:56:20] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[03:56:20] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[03:56:20] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[03:56:20] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.githubusercontent.com/Gegy/a6639456aeb8edd92cbf7cbfcf9d65d9/raw/llibrary_updates.json
-[03:56:20] [Server thread/INFO] [FML]: Applying holder lookups
-[03:56:20] [Server thread/INFO] [FML]: Holder lookups applied
-[03:56:20] [Server thread/INFO] [com.mia.craftstudio.CSPack]: Original locale was en, switching to Locale.US
-[03:56:20] [Server thread/INFO] [com.mia.craftstudio.CSPack]: Locale is now en_US
-[03:56:20] [Server thread/INFO] [com.mia.craftstudio.CSPack]: Locale was restored to en
-[03:56:20] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Found status: UP_TO_DATE Target: null
-[03:56:20] [Forge Version Check/INFO] [forge.VersionCheck]: [travellersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[03:56:20] [Forge Version Check/INFO] [forge.VersionCheck]: [travellersbackpack] Found status: OUTDATED Target: 1.0.34
-[03:56:20] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[03:56:20] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[03:56:20] [Forge Version Check/INFO] [forge.VersionCheck]: [openmods] Starting version check at http://openmods.info/versions/openmodslib.json
-[03:56:21] [Forge Version Check/INFO] [forge.VersionCheck]: [openmods] Found status: AHEAD Target: null
-[03:56:21] [Forge Version Check/INFO] [forge.VersionCheck]: [openblocks] Starting version check at http://openmods.info/versions/openblocks.json
-[03:56:21] [Forge Version Check/INFO] [forge.VersionCheck]: [openblocks] Found status: AHEAD Target: null
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemhammerwood has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemhammerstone has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemhammeriron has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemhammergold has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemhammerdiamond has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemshovelwood has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemshovelstone has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemshoveliron has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemshovelgold has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemshoveldiamond has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemaxewood has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemaxestone has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemaxeiron has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemaxegold has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemaxediamond has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemsicklewood has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemsicklestone has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemsickleiron has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemsicklegold has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemsicklediamond has been registered by Bibliotheca for the mod hammertime
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lectern`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `podium`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `egginice`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pixie_house`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jar`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_portal`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_spawner`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadidle`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadactive`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `myrmexcocoon`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforge`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgeinput`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgebrick`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:27] [Server thread/INFO] [Ice And Fire]: A raven flies from the north to the sea
-[03:56:27] [Server thread/INFO] [Ice And Fire]: A dragon whispers her name in the east
-[03:56:27] [Server thread/WARN] [mca]: MCA is running on a dedicated server and will default to using English as its language.
-[03:56:27] [Server thread/WARN] [mca]: This may cause issues with some phrases being translated while others are not.
-[03:56:27] [Server thread/WARN] [mca]: **** To change your server's language in MCA, change the `serverLanguageId` option in MCA's configuration. ****
-[03:56:27] [Server thread/INFO] [mca]: Loaded language en_us
-[03:56:28] [Server thread/INFO] [travellersbackpack]: Registered the class com.tiviacz.travellersbackpack.fluids.effects.EffectWater as a FluidEffect for water with the ID 0
-[03:56:28] [Server thread/INFO] [travellersbackpack]: Registered the class com.tiviacz.travellersbackpack.fluids.effects.EffectLava as a FluidEffect for lava with the ID 1
-[03:56:28] [Server thread/INFO] [travellersbackpack]: Registered the class com.tiviacz.travellersbackpack.fluids.effects.EffectMilk as a FluidEffect for milk with the ID 2
-[03:56:28] [Server thread/INFO] [travellersbackpack]: Registered the class com.tiviacz.travellersbackpack.fluids.effects.EffectPotion as a FluidEffect for potion with the ID 3
-[03:56:31] [Update Checker: org.jurassicraft.JurassiCraft@4b58b561/WARN] [LLibrary]: Failed to load update container for mod JurassiCraft (jurassicraft)!
-[03:56:32] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `vine`, expected `jurassicraft`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:32] [Server thread/INFO] [Chisel]: Loading blocks...
-[03:56:32] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
-[03:56:32] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
-[03:56:32] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
-[03:56:32] [Server thread/INFO] [Chisel]: 72 Feature's blocks loaded.
-[03:56:32] [Server thread/INFO] [Chisel]: Loading Tile Entities...
-[03:56:32] [Server thread/INFO] [Chisel]: Tile Entities loaded.
-[03:56:32] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `eplus.advanced.table`, expected `eplus`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:32] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `eplus.decorative.book`, expected `eplus`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:32] [Server thread/INFO] [FML]: Applying holder lookups
-[03:56:32] [Server thread/INFO] [FML]: Holder lookups applied
-[03:56:32] [Server thread/INFO] [Chisel]: Loading items...
-[03:56:32] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
-[03:56:32] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
-[03:56:32] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
-[03:56:32] [Server thread/INFO] [Chisel]: 72 Feature's items loaded.
-[03:56:32] [Server thread/INFO] [FML]: Applying holder lookups
-[03:56:32] [Server thread/INFO] [FML]: Holder lookups applied
-[03:56:33] [Server thread/INFO] [FML]: Applying holder lookups
-[03:56:33] [Server thread/INFO] [FML]: Holder lookups applied
-[03:56:33] [Server thread/INFO] [FML]: Applying holder lookups
-[03:56:33] [Server thread/INFO] [FML]: Holder lookups applied
-[03:56:33] [Server thread/INFO] [FML]: Injecting itemstacks
-[03:56:33] [Server thread/INFO] [FML]: Itemstack injection complete
-[03:56:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[03:56:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[03:56:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[03:56:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[03:56:33] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[03:56:33] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:washing_machine
+[04:00:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[04:00:05] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[04:00:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[04:00:05] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[04:00:05] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_402, running on Linux:amd64:6.2.0-1019-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[04:00:05] [main/INFO] [FML]: Searching /workspaces/server/servidor_minecraft/./mods for mods
+[04:00:05] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[04:00:05] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[04:00:05] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[04:00:05] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in iceandfire-1.9.1-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[04:00:05] [main/WARN] [FML]: The coremod iceandfire (com.github.alexthe666.iceandfire.asm.IceAndFirePlugin) is not signed!
+[04:00:05] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in OpenModsLib-1.12.2-0.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[04:00:05] [main/WARN] [FML]: The coremod openmods.core.OpenModsCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[04:00:05] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[04:00:05] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in wings-1.1.6-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[04:00:05] [main/WARN] [FML]: The coremod wings (me.paulf.wings.server.asm.plugin.WingsLoadingPlugin) is not signed!
+[04:00:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:00:05] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[04:00:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[04:00:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:00:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[04:00:05] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[04:00:05] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[04:00:05] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: Forge server detected, skipping class transformer
+[04:00:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:00:07] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[04:00:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:00:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:00:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[04:00:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:00:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:00:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:00:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[04:00:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[04:00:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[04:00:07] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[04:00:07] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.EntityLivingBase. This may cause patch issues
+[04:00:07] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.Entity. This may cause patch issues
+[04:00:07] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.nbt.NBTTagList. This may cause patch issues
+[04:00:07] [main/WARN] [LLibrary Core]: Failed to fetch hierarchy node for net.minecraft.entity.player.EntityPlayerMP. This may cause patch issues
+[04:00:07] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[04:00:07] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[04:00:07] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[04:00:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[04:00:10] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[04:00:10] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[04:00:10] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[04:00:10] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[04:00:10] [Server thread/INFO] [FML]: Searching /workspaces/server/servidor_minecraft/./mods for mods
+[04:00:10] [Server thread/WARN] [FML]: Mod damageindicatorsmod is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[04:00:11] [Server thread/INFO] [FML]: Disabling mod ctm it is client side only.
+[04:00:11] [Server thread/INFO] [FML]: Disabling mod ptrmodellib it is client side only.
+[04:00:11] [Server thread/WARN] [FML]: Mod wings is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.1.6
+[04:00:12] [Server thread/INFO] [FML]: Forge Mod Loader has identified 35 mods to load
+[04:00:12] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[04:00:12] [Server thread/WARN] [FML]: Missing English translation for bibliotheca: assets/bibliotheca/lang/en_us.lang
+[04:00:12] [Server thread/WARN] [FML]: Missing English translation for radixcore: assets/radixcore/lang/en_us.lang
+[04:00:12] [Server thread/WARN] [FML]: Missing English translation for ruins: assets/ruins/lang/en_us.lang
+[04:00:12] [Server thread/WARN] [FML]: Missing English translation for mowzies_wings: assets/mowzies_wings/lang/en_us.lang
+[04:00:12] [Server thread/WARN] [FML]: Missing English translation for bauble_wings: assets/bauble_wings/lang/en_us.lang
+[04:00:12] [Server thread/WARN] [FML]: Mod mobends_wings has been disabled through configuration
+[04:00:12] [Server thread/INFO] [FML]: FML has found a non-mod file CTM-MC1.12.2-1.0.2.31.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[04:00:12] [Server thread/INFO] [FML]: FML has found a non-mod file PTRLib-1.0.5.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[04:00:12] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, openmodscore, damageindicatorsmod, baubles, bibliotheca, bookshelf, chisel, cloudboots, props, eplus, enderzoo, cfm, hammertime, iceandfire, jei, journeymap, mca, mcd, mowziesmobs, openblocks, openmods, radixcore, ruins, swordcraftonline, travellersbackpack, mowzies_wings, bauble_wings, wings, zoocraftdiscoveries, jurassicraft, llibrary] at CLIENT
+[04:00:12] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, openmodscore, damageindicatorsmod, baubles, bibliotheca, bookshelf, chisel, cloudboots, props, eplus, enderzoo, cfm, hammertime, iceandfire, jei, journeymap, mca, mcd, mowziesmobs, openblocks, openmods, radixcore, ruins, swordcraftonline, travellersbackpack, mowzies_wings, bauble_wings, wings, zoocraftdiscoveries, jurassicraft, llibrary] at SERVER
+[04:00:13] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[04:00:13] [Server thread/INFO] [FML]: Found 1948 ObjectHolder annotations
+[04:00:13] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[04:00:13] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[04:00:13] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[04:00:13] [Forge Version Check/INFO] [forge.VersionCheck]: [travellersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[04:00:14] [Server thread/INFO] [FML]: Applying holder lookups
+[04:00:14] [Server thread/INFO] [FML]: Holder lookups applied
+[04:00:14] [Server thread/INFO] [com.mia.craftstudio.CSPack]: Original locale was en, switching to Locale.US
+[04:00:14] [Server thread/INFO] [com.mia.craftstudio.CSPack]: Locale is now en_US
+[04:00:14] [Server thread/INFO] [com.mia.craftstudio.CSPack]: Locale was restored to en
+[04:00:14] [Forge Version Check/INFO] [forge.VersionCheck]: [travellersbackpack] Found status: OUTDATED Target: 1.0.34
+[04:00:14] [Forge Version Check/INFO] [forge.VersionCheck]: [openblocks] Starting version check at http://openmods.info/versions/openblocks.json
+[04:00:14] [Forge Version Check/INFO] [forge.VersionCheck]: [openblocks] Found status: AHEAD Target: null
+[04:00:14] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[04:00:14] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[04:00:14] [Forge Version Check/INFO] [forge.VersionCheck]: [openmods] Starting version check at http://openmods.info/versions/openmodslib.json
+[04:00:14] [Forge Version Check/INFO] [forge.VersionCheck]: [openmods] Found status: AHEAD Target: null
+[04:00:14] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Starting version check at https://gist.githubusercontent.com/Gegy/a6639456aeb8edd92cbf7cbfcf9d65d9/raw/llibrary_updates.json
+[04:00:14] [Forge Version Check/INFO] [forge.VersionCheck]: [llibrary] Found status: UP_TO_DATE Target: null
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemhammerwood has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemhammerstone has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemhammeriron has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemhammergold has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemhammerdiamond has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemshovelwood has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemshovelstone has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemshoveliron has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemshovelgold has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemshoveldiamond has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemaxewood has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemaxestone has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemaxeiron has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemaxegold has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemaxediamond has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemsicklewood has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemsicklestone has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemsickleiron has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemsicklegold has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/INFO] [Bibliotheca]: [ITEM]: itemsicklediamond has been registered by Bibliotheca for the mod hammertime
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `lectern`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `podium`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `egginice`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `pixie_house`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jar`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_portal`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dread_spawner`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadidle`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dummygorgonheadactive`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `myrmexcocoon`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforge`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgeinput`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dragonforgebrick`, expected `iceandfire`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:21] [Server thread/INFO] [Ice And Fire]: A raven flies from the north to the sea
+[04:00:21] [Server thread/INFO] [Ice And Fire]: A dragon whispers her name in the east
+[04:00:21] [Server thread/WARN] [mca]: MCA is running on a dedicated server and will default to using English as its language.
+[04:00:21] [Server thread/WARN] [mca]: This may cause issues with some phrases being translated while others are not.
+[04:00:21] [Server thread/WARN] [mca]: **** To change your server's language in MCA, change the `serverLanguageId` option in MCA's configuration. ****
+[04:00:21] [Server thread/INFO] [mca]: Loaded language en_us
+[04:00:22] [Server thread/INFO] [travellersbackpack]: Registered the class com.tiviacz.travellersbackpack.fluids.effects.EffectWater as a FluidEffect for water with the ID 0
+[04:00:22] [Server thread/INFO] [travellersbackpack]: Registered the class com.tiviacz.travellersbackpack.fluids.effects.EffectLava as a FluidEffect for lava with the ID 1
+[04:00:22] [Server thread/INFO] [travellersbackpack]: Registered the class com.tiviacz.travellersbackpack.fluids.effects.EffectMilk as a FluidEffect for milk with the ID 2
+[04:00:22] [Server thread/INFO] [travellersbackpack]: Registered the class com.tiviacz.travellersbackpack.fluids.effects.EffectPotion as a FluidEffect for potion with the ID 3
+[04:00:25] [Update Checker: org.jurassicraft.JurassiCraft@6e40ccea/WARN] [LLibrary]: Failed to load update container for mod JurassiCraft (jurassicraft)!
+[04:00:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `vine`, expected `jurassicraft`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:26] [Server thread/INFO] [Chisel]: Loading blocks...
+[04:00:26] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[04:00:26] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[04:00:26] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[04:00:26] [Server thread/INFO] [Chisel]: 72 Feature's blocks loaded.
+[04:00:26] [Server thread/INFO] [Chisel]: Loading Tile Entities...
+[04:00:26] [Server thread/INFO] [Chisel]: Tile Entities loaded.
+[04:00:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `eplus.advanced.table`, expected `eplus`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:26] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `eplus.decorative.book`, expected `eplus`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:26] [Server thread/INFO] [FML]: Applying holder lookups
+[04:00:26] [Server thread/INFO] [FML]: Holder lookups applied
+[04:00:26] [Server thread/INFO] [Chisel]: Loading items...
+[04:00:26] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[04:00:26] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[04:00:26] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[04:00:26] [Server thread/INFO] [Chisel]: 72 Feature's items loaded.
+[04:00:26] [Server thread/INFO] [FML]: Applying holder lookups
+[04:00:26] [Server thread/INFO] [FML]: Holder lookups applied
+[04:00:26] [Server thread/INFO] [FML]: Applying holder lookups
+[04:00:26] [Server thread/INFO] [FML]: Holder lookups applied
+[04:00:26] [Server thread/INFO] [FML]: Applying holder lookups
+[04:00:26] [Server thread/INFO] [FML]: Holder lookups applied
+[04:00:26] [Server thread/INFO] [FML]: Injecting itemstacks
+[04:00:26] [Server thread/INFO] [FML]: Itemstack injection complete
+[04:00:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[04:00:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[04:00:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[04:00:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[04:00:27] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[04:00:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[04:00:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[04:00:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[04:00:27] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[04:00:27] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:washing_machine
 com.google.gson.JsonParseException: Missing data for item 'minecraft:quartz_block'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
@@ -176,7 +179,7 @@ com.google.gson.JsonParseException: Missing data for item 'minecraft:quartz_bloc
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_402]
-[03:56:33] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:light
+[04:00:27] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:light
 com.google.gson.JsonSyntaxException: Unknown item 'mcd:light'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:214) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:523) ~[CraftingHelper.class:?]
@@ -192,7 +195,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'mcd:light'
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_402]
-[03:56:33] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_counter_drawers_default
+[04:00:27] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_counter_drawers_default
 com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_counter_drawers_default'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:217) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:523) ~[CraftingHelper.class:?]
@@ -208,7 +211,7 @@ com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_counter_d
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_402]
-[03:56:33] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_counter_cove_washing_machine
+[04:00:27] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_counter_cove_washing_machine
 com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_counter_cove'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
@@ -226,7 +229,7 @@ com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_counter_c
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_402]
-[03:56:33] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_counter_cove_oven
+[04:00:27] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_counter_cove_oven
 com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_counter_cove'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
@@ -244,7 +247,7 @@ com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_counter_c
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_402]
-[03:56:33] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_counter_cove
+[04:00:27] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_counter_cove
 com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_counter_cove'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:217) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:523) ~[CraftingHelper.class:?]
@@ -260,7 +263,7 @@ com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_counter_c
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_402]
-[03:56:33] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_counter
+[04:00:27] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_counter
 com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_counter'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:217) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:523) ~[CraftingHelper.class:?]
@@ -276,7 +279,7 @@ com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_counter'
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_402]
-[03:56:33] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_cabinet_left
+[04:00:27] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:kitchen_cabinet_left
 com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_cabinet_left'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:217) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$14(CraftingHelper.java:523) ~[CraftingHelper.class:?]
@@ -292,7 +295,7 @@ com.google.gson.JsonParseException: Missing data for item 'mcd:kitchen_cabinet_l
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_402]
-[03:56:33] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:dish_washer
+[04:00:27] [Server thread/ERROR] [FML]: Parsing error loading recipe mcd:dish_washer
 com.google.gson.JsonParseException: Missing data for item 'minecraft:quartz_block'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStackBasic(CraftingHelper.java:265) ~[CraftingHelper.class:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.lambda$init$16(CraftingHelper.java:544) ~[CraftingHelper.class:?]
@@ -310,137 +313,255 @@ com.google.gson.JsonParseException: Missing data for item 'minecraft:quartz_bloc
 	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:219) [nz.class:?]
 	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:486) [MinecraftServer.class:?]
 	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_402]
-[03:56:33] [Server thread/INFO] [Chisel]: Loading recipes...
-[03:56:33] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
-[03:56:33] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
-[03:56:33] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
-[03:56:33] [Server thread/INFO] [Chisel]: 72 Feature's recipes loaded.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/INFO] [FML]: Applying holder lookups
-[03:56:33] [Server thread/INFO] [FML]: Holder lookups applied
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmoven`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfridge`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfreezer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbedsidecabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmailbox`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcomputer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmprinter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmstereo`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmpresent`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbin`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwallcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbath`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmshowerhead`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmplate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcouch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtoaster`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmchoppingboard`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmblender`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmicrowave`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwashingmachine`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdishwasher`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinetkitchen`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcup`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcookiejar`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtree`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmirror`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmgrill`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmeski`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdoormat`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcrate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmlightswitch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmceilingfan`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdeskcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmodernslidingdoor`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdigitalclock`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtv`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounterdrawer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(2, 1) invalid, 1 smaller than 2
-[03:56:33] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(4, 1) invalid, 1 smaller than 4
-[03:56:33] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(10, 1) invalid, 1 smaller than 10
-[03:56:33] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(9, 1) invalid, 1 smaller than 9
-[03:56:33] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(3, 2) invalid, 2 smaller than 3
-[03:56:33] [Server thread/INFO] [Ice And Fire]: The watcher waits on the northern wall
-[03:56:33] [Server thread/INFO] [Ice And Fire]: A daughter picks up a warrior's sword
-[03:56:33] [Server thread/INFO] [mca]: MCA has successfully loaded 259 skins.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiletombstone`, expected `mca`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilememorial`, expected `mca`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmtable`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mcdkitchencounterdrawers`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmkitchencountercove`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmkitchencounter`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmdeskcabinet`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmdeskcabinetconcrete`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmkitchencabinet`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmcatbed`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
-[03:56:33] [Server thread/INFO] [FML]: Injecting itemstacks
-[03:56:33] [Server thread/INFO] [FML]: Itemstack injection complete
-[03:56:33] [Server thread/INFO] [enderzoo]: Loaded 6 entries from core spawn config.
-[03:56:33] [Server thread/INFO] [enderzoo]: Loaded 0 entries from user spawn config.
-[03:56:33] [Server thread/INFO] [enderzoo]: Applying 6 spawn entries from config.
-[03:56:33] [Server thread/INFO] [Ice And Fire]: A brother bound to a love he must hide
-[03:56:33] [Server thread/INFO] [Ice And Fire]: The younger's armor is worn in the mind
-[03:56:33] [Server thread/INFO] [Ice And Fire]: A cold iron throne holds a boy barely grown
-[03:56:33] [Server thread/INFO] [Ice And Fire]: And now it is known
-[03:56:33] [Server thread/INFO] [Ice And Fire]: A claim to the prize, a crown laced in lies
-[03:56:33] [Server thread/INFO] [Ice And Fire]: You win or you die
-[03:56:33] [Server thread/INFO] [Ice And Fire]: Damn season 8 really sucked didn't it
-[03:56:33] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:56:33] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:56:33] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:56:33] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:56:33] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:56:33] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:56:33] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:56:33] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
-[03:56:33] [Server thread/INFO] [jurassicraft]: Successfully registered maps trade
-[03:56:34] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 35 mods
-[03:56:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[03:56:34] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@52aae34b)
-[03:56:34] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 565 advancements
-[03:56:34] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@52aae34b)
-[03:56:34] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@52aae34b)
-[03:56:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[03:56:35] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [-11, 6] in dimension 0 (overworld) while populating chunk [-10, 6], causing cascading worldgen lag.
-[03:56:35] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[03:56:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 6%
-[03:56:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 13%
-[03:56:37] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [-6, 20] in dimension 0 (overworld) while populating chunk [-7, 21], causing cascading worldgen lag.
-[03:56:37] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[03:56:37] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [-6, 21] in dimension 0 (overworld) while populating chunk [-7, 21], causing cascading worldgen lag.
-[03:56:37] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[03:56:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 22%
-[03:56:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 37%
-[03:56:39] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [-2, 4] in dimension 0 (overworld) while populating chunk [-1, 5], causing cascading worldgen lag.
-[03:56:39] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[03:56:39] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [-2, 3] in dimension 0 (overworld) while populating chunk [-2, 4], causing cascading worldgen lag.
-[03:56:39] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[03:56:39] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [-1, 4] in dimension 0 (overworld) while populating chunk [-1, 5], causing cascading worldgen lag.
-[03:56:39] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
-[03:56:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 48%
-[03:56:40] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 59%
-[03:56:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 71%
-[03:56:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 83%
-[03:56:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 97%
-[03:56:44] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (10.177s)! For help, type "help" or "?"
-[03:56:44] [Server thread/INFO] [journeymap]: global (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.global.config
-[03:56:44] [Server thread/INFO] [journeymap]: global (Valid) Creating config file: ./journeymap/server/5.7/journeymap.server.global.config
-[03:56:44] [Server thread/INFO] [journeymap]: default (FirstLoaded) Setting config file to version "5.7.1": journeymap.server.default.config
-[03:56:44] [Server thread/INFO] [journeymap]: default (Valid) Creating config file: ./journeymap/server/5.7/journeymap.server.default.config
-[03:56:44] [Server thread/INFO] [journeymap]: dim0 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim0.config
-[03:56:44] [Server thread/INFO] [journeymap]: dim0 (Valid) Creating config file: ./journeymap/server/5.7/journeymap.server.dim0.config
-[03:56:44] [Server thread/INFO] [journeymap]: dim-1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim-1.config
-[03:56:44] [Server thread/INFO] [journeymap]: dim-1 (Valid) Creating config file: ./journeymap/server/5.7/journeymap.server.dim-1.config
-[03:56:44] [Server thread/INFO] [journeymap]: dim1 (Initialized) Setting config file to version "5.7.1": journeymap.server.dim1.config
-[03:56:44] [Server thread/INFO] [journeymap]: dim1 (Valid) Creating config file: ./journeymap/server/5.7/journeymap.server.dim1.config
-[03:56:44] [Server thread/INFO] [FML]: Unloading dimension -1
-[03:56:44] [Server thread/INFO] [FML]: Unloading dimension 1
-[03:58:41] [User Authenticator #1/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: Disconnecting /127.0.0.1:55248: Failed to verify username!
-[03:58:41] [User Authenticator #1/ERROR] [net.minecraft.server.network.NetHandlerLoginServer]: Username 'TRECETRECETRECE' tried to join with an invalid session
-[03:58:41] [Server thread/INFO] [net.minecraft.server.network.NetHandlerLoginServer]: /127.0.0.1:55248 lost connection: Failed to verify username!
-[03:58:46] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
-[03:58:46] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
-[03:58:46] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
-[03:58:46] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[04:00:27] [Server thread/INFO] [Chisel]: Loading recipes...
+[04:00:27] [Server thread/INFO] [Chisel]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[04:00:27] [Server thread/INFO] [Chisel]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[04:00:27] [Server thread/INFO] [Chisel]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[04:00:27] [Server thread/INFO] [Chisel]: 72 Feature's recipes loaded.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `painted acacia slab`, expected `mowziesmobs`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/INFO] [FML]: Applying holder lookups
+[04:00:27] [Server thread/INFO] [FML]: Holder lookups applied
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmoven`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfridge`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmfreezer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbedsidecabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmailbox`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcomputer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmprinter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmstereo`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmpresent`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbin`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwallcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmbath`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmshowerhead`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmplate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcouch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtoaster`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmchoppingboard`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmblender`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmicrowave`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmwashingmachine`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdishwasher`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcabinetkitchen`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcup`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcookiejar`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtree`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmirror`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmgrill`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmeski`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdoormat`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmcrate`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmlightswitch`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmceilingfan`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdeskcabinet`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmmodernslidingdoor`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmdigitalclock`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmtv`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounter`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `cfmkitchencounterdrawer`, expected `cfm`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(2, 1) invalid, 1 smaller than 2
+[04:00:27] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(4, 1) invalid, 1 smaller than 4
+[04:00:27] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(10, 1) invalid, 1 smaller than 10
+[04:00:27] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(9, 1) invalid, 1 smaller than 9
+[04:00:27] [Server thread/WARN] [net.minecraft.entity.passive.EntityVillager]: PriceRange(3, 2) invalid, 2 smaller than 3
+[04:00:27] [Server thread/INFO] [Ice And Fire]: The watcher waits on the northern wall
+[04:00:27] [Server thread/INFO] [Ice And Fire]: A daughter picks up a warrior's sword
+[04:00:27] [Server thread/INFO] [mca]: MCA has successfully loaded 259 skins.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tiletombstone`, expected `mca`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `tilememorial`, expected `mca`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmtable`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `mcdkitchencounterdrawers`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmkitchencountercove`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmkitchencounter`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmdeskcabinet`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmdeskcabinetconcrete`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmkitchencabinet`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dmcatbed`, expected `mcd`. This could be a intended override, but in most cases indicates a broken mod.
+[04:00:27] [Server thread/INFO] [FML]: Injecting itemstacks
+[04:00:27] [Server thread/INFO] [FML]: Itemstack injection complete
+[04:00:27] [Server thread/INFO] [enderzoo]: Loaded 6 entries from core spawn config.
+[04:00:27] [Server thread/INFO] [enderzoo]: Loaded 0 entries from user spawn config.
+[04:00:27] [Server thread/INFO] [enderzoo]: Applying 6 spawn entries from config.
+[04:00:27] [Server thread/INFO] [Ice And Fire]: A brother bound to a love he must hide
+[04:00:27] [Server thread/INFO] [Ice And Fire]: The younger's armor is worn in the mind
+[04:00:27] [Server thread/INFO] [Ice And Fire]: A cold iron throne holds a boy barely grown
+[04:00:27] [Server thread/INFO] [Ice And Fire]: And now it is known
+[04:00:27] [Server thread/INFO] [Ice And Fire]: A claim to the prize, a crown laced in lies
+[04:00:27] [Server thread/INFO] [Ice And Fire]: You win or you die
+[04:00:27] [Server thread/INFO] [Ice And Fire]: Damn season 8 really sucked didn't it
+[04:00:27] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[04:00:27] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[04:00:27] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[04:00:27] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[04:00:27] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[04:00:27] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[04:00:27] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[04:00:27] [Server thread/INFO] [STDOUT]: [com.bobmowzie.mowziesmobs.server.spawn.SpawnHandler:getBiomesFromConfig:146]: Reflection failed
+[04:00:27] [Server thread/INFO] [jurassicraft]: Successfully registered maps trade
+[04:00:27] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 35 mods
+[04:00:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[04:00:27] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[04:00:28] [Server thread/INFO] [FML]: Applying holder lookups
+[04:00:28] [Server thread/INFO] [FML]: Holder lookups applied
+[04:00:28] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@28da8e1c)
+[04:00:28] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 565 advancements
+[04:00:28] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@28da8e1c)
+[04:00:28] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@28da8e1c)
+[04:00:28] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[04:00:29] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 62%
+[04:00:30] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.419s)! For help, type "help" or "?"
+[04:00:30] [Server thread/INFO] [FML]: Unloading dimension -1
+[04:00:30] [Server thread/INFO] [FML]: Unloading dimension 1
+[04:01:02] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[04:01:02] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,mcp@9.42
+[04:01:02] [Netty Epoll Server IO #2/INFO] [journeymap]: CLIENT
+[04:01:02] [Netty Epoll Server IO #2/INFO] [FML]: Attempting connection with missing mods [openmodscore, damageindicatorsmod, baubles, bibliotheca, bookshelf, chisel, cloudboots, props, eplus, enderzoo, cfm, hammertime, iceandfire, jei, journeymap, mca, mcd, mowziesmobs, openblocks, openmods, radixcore, ruins, swordcraftonline, travellersbackpack, mowzies_wings, bauble_wings, wings, zoocraftdiscoveries, jurassicraft, llibrary] at CLIENT
+[04:01:02] [Netty Epoll Server IO #2/INFO] [FML]: Rejecting connection CLIENT: Bauble Wings: Requires version 1.0.0 but mod is not found on client.
+Baubles: Requires version 1.5.2 but mod is not found on client.
+Bibliotheca: Requires version 1.3.6-1.12.2 but mod is not found on client.
+Bookshelf: Requires version 2.3.585 but mod is not found on client.
+Chisel: Requires version MC1.12.2-1.0.2.45 but mod is not found on client.
+Cloud Boots: Requires version 1.4.1 but mod is not found on client.
+Decocraft: Requires version 2.6.3.7 but mod is not found on client.
+Enchanting Plus: Requires version 5.0.176 but mod is not found on client.
+Ender Zoo: Requires version 1.12.1-1.4.0.49 but mod is not found on client.
+Hammer Time: Requires version 2.2.0 but mod is not found on client.
+Ice and Fire: Requires version 1.9.1 but mod is not found on client.
+JurassiCraft: Requires version 2.1.23  but mod is not found on client.
+LLibrary: Requires version 1.7.20 but mod is not found on client.
+MCDecorationsMod: Requires version 9.0 but mod is not found on client.
+Minecraft Comes Alive: Requires version 1.12.2-5.3.1 but mod is not found on client.
+Mowzie's Mobs: Requires version 1.5.8 but mod is not found on client.
+Mowzie's Wings: Requires version 1.0.0 but mod is not found on client.
+MrCrayfish's Furniture Mod: Requires version 6.3.1 but mod is not found on client.
+OpenBlocks: Requires version 1.8.1 but mod is not found on client.
+OpenModsLib: Requires version 0.12.2 but mod is not found on client.
+RadixCore: Requires version 1.12.x-2.2.1 but mod is not found on client.
+SwordCraftOnline: Requires version 1.0.1 but mod is not found on client.
+Traveller's Backpack: Requires version 1.0.27 but mod is not found on client.
+Wings: Requires version 1.1.6 but mod is not found on client.
+Zoocraft Discoveries: Requires version 1.0 but mod is not found on client.
+[04:01:02] [Netty Epoll Server IO #2/ERROR] [FML]: Network Disconnect: Server Mod rejections:
+Bauble Wings: Requires version 1.0.0 but mod is not found on client.
+Baubles: Requires version 1.5.2 but mod is not found on client.
+Bibliotheca: Requires version 1.3.6-1.12.2 but mod is not found on client.
+Bookshelf: Requires version 2.3.585 but mod is not found on client.
+Chisel: Requires version MC1.12.2-1.0.2.45 but mod is not found on client.
+Cloud Boots: Requires version 1.4.1 but mod is not found on client.
+Decocraft: Requires version 2.6.3.7 but mod is not found on client.
+Enchanting Plus: Requires version 5.0.176 but mod is not found on client.
+Ender Zoo: Requires version 1.12.1-1.4.0.49 but mod is not found on client.
+Hammer Time: Requires version 2.2.0 but mod is not found on client.
+Ice and Fire: Requires version 1.9.1 but mod is not found on client.
+JurassiCraft: Requires version 2.1.23  but mod is not found on client.
+LLibrary: Requires version 1.7.20 but mod is not found on client.
+MCDecorationsMod: Requires version 9.0 but mod is not found on client.
+Minecraft Comes Alive: Requires version 1.12.2-5.3.1 but mod is not found on client.
+Mowzie's Mobs: Requires version 1.5.8 but mod is not found on client.
+Mowzie's Wings: Requires version 1.0.0 but mod is not found on client.
+MrCrayfish's Furniture Mod: Requires version 6.3.1 but mod is not found on client.
+OpenBlocks: Requires version 1.8.1 but mod is not found on client.
+OpenModsLib: Requires version 0.12.2 but mod is not found on client.
+RadixCore: Requires version 1.12.x-2.2.1 but mod is not found on client.
+SwordCraftOnline: Requires version 1.0.1 but mod is not found on client.
+Traveller's Backpack: Requires version 1.0.27 but mod is not found on client.
+Wings: Requires version 1.1.6 but mod is not found on client.
+Zoocraft Discoveries: Requires version 1.0 but mod is not found on client.
+[04:01:02] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: TRECETRECETRECE lost connection: Server Mod rejections:
+Bauble Wings: Requires version 1.0.0 but mod is not found on client.
+Baubles: Requires version 1.5.2 but mod is not found on client.
+Bibliotheca: Requires version 1.3.6-1.12.2 but mod is not found on client.
+Bookshelf: Requires version 2.3.585 but mod is not found on client.
+Chisel: Requires version MC1.12.2-1.0.2.45 but mod is not found on client.
+Cloud Boots: Requires version 1.4.1 but mod is not found on client.
+Decocraft: Requires version 2.6.3.7 but mod is not found on client.
+Enchanting Plus: Requires version 5.0.176 but mod is not found on client.
+Ender Zoo: Requires version 1.12.1-1.4.0.49 but mod is not found on client.
+Hammer Time: Requires version 2.2.0 but mod is not found on client.
+Ice and Fire: Requires version 1.9.1 but mod is not found on client.
+JurassiCraft: Requires version 2.1.23  but mod is not found on client.
+LLibrary: Requires version 1.7.20 but mod is not found on client.
+MCDecorationsMod: Requires version 9.0 but mod is not found on client.
+Minecraft Comes Alive: Requires version 1.12.2-5.3.1 but mod is not found on client.
+Mowzie's Mobs: Requires version 1.5.8 but mod is not found on client.
+Mowzie's Wings: Requires version 1.0.0 but mod is not found on client.
+MrCrayfish's Furniture Mod: Requires version 6.3.1 but mod is not found on client.
+OpenBlocks: Requires version 1.8.1 but mod is not found on client.
+OpenModsLib: Requires version 0.12.2 but mod is not found on client.
+RadixCore: Requires version 1.12.x-2.2.1 but mod is not found on client.
+SwordCraftOnline: Requires version 1.0.1 but mod is not found on client.
+Traveller's Backpack: Requires version 1.0.27 but mod is not found on client.
+Wings: Requires version 1.1.6 but mod is not found on client.
+Zoocraft Discoveries: Requires version 1.0 but mod is not found on client.
+[04:01:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TRECETRECETRECE left the game
+[04:01:15] [Server thread/INFO] [STDOUT]: [atomicstryker.ruins.common.ChunkLoggerData:func_76184_a:24]: Ruins chunks logged: 582
+[04:04:01] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
+[04:04:01] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 37 mods : minecraft@1.12.2,ptrmodellib@1.0.5,mowziesmobs@1.5.8,baubles@1.5.2,mca@1.12.2-5.3.1,openmodscore@0.12.2,openmods@0.12.2,jei@4.16.1.301,mcd@9.0,damageindicatorsmod@1.0,travellersbackpack@1.0.27,hammertime@2.2.0,radixcore@1.12.x-2.2.1,bauble_wings@1.0.0,mcp@9.42,ctm@MC1.12.2-1.0.2.31,journeymap@1.12.2-5.7.1,swordcraftonline@1.0.1,FML@8.0.99.99,bookshelf@2.3.585,llibrary@1.7.20,cfm@6.3.1,chisel@MC1.12.2-1.0.2.45,iceandfire@1.9.1,jurassicraft@2.1.23 ,props@2.6.3.7,bibliotheca@1.3.6-1.12.2,tlauncher_custom_cape_skin@1.4,cloudboots@1.4.1,mowzies_wings@1.0.0,forge@14.23.5.2860,ruins@17.2,wings@1.1.6,zoocraftdiscoveries@1.0,eplus@5.0.176,openblocks@1.8.1,enderzoo@1.12.1-1.4.0.49
+[04:04:01] [Netty Epoll Server IO #4/INFO] [journeymap]: CLIENT
+[04:04:03] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[04:04:03] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: TRECETRECETRECE[/127.0.0.1:38002] logged in with entity id 283 at (38.5, 67.0, 284.5)
+[04:04:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TRECETRECETRECE joined the game
+[04:04:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped TRECETRECETRECE
+[04:04:15] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class net.minecraft.entity.passive.EntityVillager from class mca.core.Constants
+[04:04:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TRECETRECETRECE: Set own game mode to Creative Mode]
+[04:06:15] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [-14, 21] in dimension 0 (overworld) while populating chunk [-13, 21], causing cascading worldgen lag.
+[04:06:15] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[04:06:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TRECETRECETRECE: Set own game mode to Survival Mode]
+[04:06:24] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [-15, 12] in dimension 0 (overworld) while populating chunk [-15, 13], causing cascading worldgen lag.
+[04:06:24] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[04:08:53] [Server thread/WARN] [FML]: Ruins Mod loaded a new chunk [-22, 30] in dimension 0 (overworld) while populating chunk [-21, 31], causing cascading worldgen lag.
+[04:08:53] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.entity.VillagerAttributes
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.actions.ActionSleep
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.actions.ActionSleep
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.actions.ActionSleep
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.actions.ActionFollow
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.actions.ActionProcreate
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.actions.ActionUpdateMood
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.actions.AbstractToggleAction
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.actions.AbstractToggleAction
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.actions.ActionCombat
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.actions.ActionCombat
+[04:08:54] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class mca.entity.EntityVillagerMCA from class mca.actions.ActionCombat
+[04:08:57] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: TRECETRECETRECE moved too quickly! -2.3053008763365597,1.2412496679696972,-9.789528251788568
+[04:08:57] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2007ms behind, skipping 40 tick(s)
+[04:09:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TRECETRECETRECE: Given [Steak] * 1 to TRECETRECETRECE]
+[04:09:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [TRECETRECETRECE: Given [Steak] * 64 to TRECETRECETRECE]
+[04:09:37] [Server thread/WARN] [FML]: JurassiCraft loaded a new chunk [-15, 38] in dimension 0 (overworld) while populating chunk [-15, 37], causing cascading worldgen lag.
+[04:09:37] [Server thread/WARN] [FML]: Please report this to the mod's issue tracker. This log can be disabled in the Forge config.
+[04:10:30] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: Can't keep up! Did the system time change, or is the server overloaded? Running 2754ms behind, skipping 55 tick(s)
+[04:10:30] [Server thread/WARN] [net.minecraft.network.NetHandlerPlayServer]: TRECETRECETRECE moved too quickly! 8.66549020988532,0.8456314020719446,-5.28004568724441
+[04:10:49] [Server thread/INFO] [OpenMods]: openblocks.common.PlayerInventoryStore.onPlayerDeath(PlayerInventoryStore.java:304): Storing post-mortem inventory into /workspaces/server/servidor_minecraft/./world/data/inventory-TRECETRECETRECE-2024-04-28_04.10.49-death-0.dat. It can be restored with command '/ob_inventory restore TRECETRECETRECE TRECETRECETRECE-2024-04-28_04.10.49-death-0'
+[04:10:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TRECETRECETRECE was slain by Fire Dragon
+[04:10:49] [Server thread/INFO] [OpenMods]: openblocks.common.PlayerDeathHandler$GraveCallable.tryPlaceGrave(PlayerDeathHandler.java:200): Grave for (723c0b61-1d01-371c-be4b-0b6817ec3f00,TRECETRECETRECE) was spawned at (BlockPos{x=-324, y=67, z=416}) (player died at (BlockPos{x=-324, y=67, z=416}))
+[04:11:28] [Server thread/INFO] [OpenMods]: openblocks.common.PlayerInventoryStore.onPlayerDeath(PlayerInventoryStore.java:304): Storing post-mortem inventory into /workspaces/server/servidor_minecraft/./world/data/inventory-TRECETRECETRECE-2024-04-28_04.11.28-death-0.dat. It can be restored with command '/ob_inventory restore TRECETRECETRECE TRECETRECETRECE-2024-04-28_04.11.28-death-0'
+[04:11:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TRECETRECETRECE was slain by Zombie
+[04:11:34] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: TRECETRECETRECE lost connection: Timed out
+[04:11:34] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: TRECETRECETRECE left the game
