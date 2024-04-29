@@ -1,38 +1,38 @@
-[01:20:40] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:20:41] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[01:20:42] [ServerMain/INFO]: No existing world data, creating new world
-[01:20:42] [ServerMain/INFO]: Loaded 1174 recipes
-[01:20:43] [ServerMain/INFO]: Loaded 1271 advancements
-[01:20:43] [Server thread/INFO]: Starting minecraft server version 1.20.4
-[01:20:43] [Server thread/INFO]: Loading properties
-[01:20:43] [Server thread/INFO]: This server is running Paper version git-Paper-496 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 7ac24a1 on ver/1.20.4)
-[01:20:44] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[01:20:44] [Server thread/INFO]: Using 4 threads for Netty based IO
-[01:20:44] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[01:20:44] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[01:22:29] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:22:30] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[01:22:30] [ServerMain/INFO]: No existing world data, creating new world
+[01:22:31] [ServerMain/INFO]: Loaded 1174 recipes
+[01:22:31] [ServerMain/INFO]: Loaded 1271 advancements
+[01:22:31] [Server thread/INFO]: Starting minecraft server version 1.20.4
+[01:22:31] [Server thread/INFO]: Loading properties
+[01:22:32] [Server thread/INFO]: This server is running Paper version git-Paper-496 (MC: 1.20.4) (Implementing API version 1.20.4-R0.1-SNAPSHOT) (Git: 7ac24a1 on ver/1.20.4)
+[01:22:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:22:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:22:32] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[01:20:44] [Server thread/INFO]: Default game type: SURVIVAL
-[01:20:44] [Server thread/INFO]: Generating keypair
-[01:20:44] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:20:44] [Server thread/INFO]: Using epoll channel type
-[01:20:44] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[01:20:44] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[01:20:44] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
-[01:20:44] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[01:20:44] [Server thread/WARN]: Perhaps a server is already running on that port?
-[01:20:44] [Server thread/ERROR]: Encountered an unexpected exception
+[01:22:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[01:22:33] [Server thread/INFO]: Default game type: SURVIVAL
+[01:22:33] [Server thread/INFO]: Generating keypair
+[01:22:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:22:33] [Server thread/INFO]: Using epoll channel type
+[01:22:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:22:33] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:22:33] [Server thread/WARN]: **** FAILED TO BIND TO PORT!
+[01:22:33] [Server thread/WARN]: The exception was: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
+[01:22:33] [Server thread/WARN]: Perhaps a server is already running on that port?
+[01:22:33] [Server thread/ERROR]: Encountered an unexpected exception
 java.lang.IllegalStateException: Failed to bind to port
 	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:268) ~[paper-1.20.4.jar:git-Paper-496]
 	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1131) ~[paper-1.20.4.jar:git-Paper-496]
 	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:319) ~[paper-1.20.4.jar:git-Paper-496]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
 Caused by: io.netty.channel.unix.Errors$NativeIoException: bind(..) failed: Address already in use
-[01:20:44] [Server thread/ERROR]: This crash report has been saved to: /workspaces/server/servidor_minecraft/./crash-reports/crash-2024-04-29_01.20.44-server.txt
-[01:20:44] [Server thread/INFO]: Stopping server
-[01:20:44] [Server thread/INFO]: Saving players
-[01:20:45] [Server thread/INFO]: Saving worlds
-[01:20:45] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[01:20:45] [Server thread/INFO]: Flushing Chunk IO
-[01:20:45] [Server thread/INFO]: Closing Thread Pool
-[01:20:45] [Server thread/INFO]: Closing Server
+[01:22:33] [Server thread/ERROR]: This crash report has been saved to: /workspaces/server/servidor_minecraft/./crash-reports/crash-2024-04-29_01.22.33-server.txt
+[01:22:33] [Server thread/INFO]: Stopping server
+[01:22:33] [Server thread/INFO]: Saving players
+[01:22:33] [Server thread/INFO]: Saving worlds
+[01:22:33] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[01:22:33] [Server thread/INFO]: Flushing Chunk IO
+[01:22:33] [Server thread/INFO]: Closing Thread Pool
+[01:22:33] [Server thread/INFO]: Closing Server
