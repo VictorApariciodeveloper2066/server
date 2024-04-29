@@ -1,7 +1,7 @@
-2024/04/29 01:43:39 logtail started
-2024/04/29 01:43:39 Program starting: v1.62.0-tdf4d4ebd4-gd0454003c, Go 1.22.1: []string{"./tailscaled"}
-2024/04/29 01:43:39 LogID: 8e173eef4d5e6d39c6d23488ec8c177bddb806b484fcac3a249e0a7010a302c9
-2024/04/29 01:43:39 logpolicy: using system state directory "/var/lib/tailscale"
-2024/04/29 01:43:39 flushing log.
-2024/04/29 01:43:39 logger closing down
-2024/04/29 01:43:39 safesocket.Listen: /var/run/tailscale/tailscaled.sock: address already in use
+2024/04/29 02:11:46 logtail started
+2024/04/29 02:11:46 Program starting: v1.62.0-tdf4d4ebd4-gd0454003c, Go 1.22.1: []string{"./tailscaled"}
+2024/04/29 02:11:46 LogID: 8e173eef4d5e6d39c6d23488ec8c177bddb806b484fcac3a249e0a7010a302c9
+2024/04/29 02:11:46 logpolicy: using system state directory "/var/lib/tailscale"
+2024/04/29 02:11:46 flushing log.
+2024/04/29 02:11:46 logger closing down
+2024/04/29 02:11:46 safesocket.Listen: /var/run/tailscale/tailscaled.sock: address already in use
